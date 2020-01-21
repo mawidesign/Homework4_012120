@@ -22,8 +22,8 @@ body {
    animation-duration: 2s;
    animation-iteration-count: infinite;
    height: 200px;
-margin: 40px auto 0 311px;
- transform-origin: bottom;
+    margin: 28px auto 0 311px;
+     transform-origin: bottom;
    width: 240px;
    position: fixed;
    z-index: 3;
@@ -37,6 +37,7 @@ margin: 40px auto 0 311px;
    margin: 0 auto 0 auto;
    transform-origin: bottom;
    width: 200px;
+       margin-left: 390px;
  }
 
 
