@@ -1,0 +1,53 @@
+
+
+body {
+     font: 1.5em sans-serif;
+     text-align: center;
+     background-color: #FFDCEA;
+ }
+
+ h3{
+   color:#59ADA8;
+ }
+ .stage {
+     border-bottom: 3px dashed #59ADA8;
+     display: flex;
+     height: 330px;
+     width: 100%;
+ }
+
+
+ .cloud{
+   align-self: flex-end;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   height: 200px;
+margin: 40px auto 0 311px;
+ transform-origin: bottom;
+   width: 240px;
+   position: fixed;
+   z-index: 3;
+ }
+
+ .rainbow{
+   align-self: flex-end;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   height: 200px;
+   margin: 0 auto 0 auto;
+   transform-origin: bottom;
+   width: 200px;
+ }
+
+
+
+
+ .bounce-1 {
+     animation-name: bounce-1;
+     animation-timing-function: linear;
+ }
+ @keyframes bounce-1 {
+     0%   { transform: translateY(0); }
+     50%  { transform: translateY(-100px); }
+     100% { transform: translateY(0); }
+ }
